@@ -1,0 +1,128 @@
+
+  .centerImageContainer {
+    margin: 20px 0;
+    position: relative;
+    display: inline-block;
+    width: 1200px;
+    height: auto; 
+  }
+  .centerImage {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+    height: 500px;
+    border-radius: 14px;
+  }
+  
+  .sliderButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+   background-color: #FCFCFC;
+   color: #00357B;
+   border-radius: 50%;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .leftButton {
+    left: 20px;
+  }
+  
+  .rightButton {
+    right: 0;
+  }
+  .thumbnailContainerwrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .thumbnailContainer {
+    display: flex;
+    justify-content: space-evenly;
+   gap: 15px;
+    width: 1200px;
+  }
+  
+  .thumbnail {
+    width: 290px;
+    height: 168px;
+    cursor: pointer;
+    object-fit: cover;
+    background-color: blue;
+    border-radius: 14px;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalImage {
+    width: 80%;
+    max-width: 800px;
+    height: auto;
+    object-fit: cover;
+  }
+  .footer{
+
+    width: 100%;
+    background-color: #091D41;
+    Height:108px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer span{
+    font-family: "Poppins";
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+
+  }
+  
+  @media (min-width: 450px) {
+   .rightButton {
+      display: none;
+    }
+
+  }
+  @media (max-width: 450px) {
+    .centerImageContainer {
+      width: 100%;
+      
+    }
+    .centerImage {
+      width: 100%;
+      height: 270px; 
+    }
+    .thumbnailContainer{
+    
+      gap: 6px;
+      width: 100%;
+    }
+    .thumbnail{
+      width: 285px;
+      height: 64px; 
+    }
+ 
+   }
+
+  

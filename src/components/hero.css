@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.dark-grade{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 705px;
+    background: linear-gradient(-89.99deg, rgba(18, 13, 10, 0.889) 16.84%, rgba(132, 132, 132, 0) 90.2%);
+    opacity: 0.7;
+}
+
+.main-body-wrapper{
+    top: 150px;
+}
+
+.main-h-1 h1{
+font-family:"Oswald";
+font-size: 48px;
+font-weight: 500;
+line-height: 62.4px;
+text-transform: uppercase;
+}
+
+.color-h1{
+    color:#17ABFF ;
+}
+.main-h-2{    
+font-size: 25px;
+}
+
+.main-sub-heading{
+   display: flex;
+   flex-direction: column;
+   padding-top: 45px;
+}
+.m-sub-1{ 
+   display: inline-block;
+}
+
+.m-sub-1 span{
+    width: 315px;
+    display: inline-block;
+}
+.m-sub-2{
+   display: inline-block;
+}
+.m-sub-2 span{
+    width: 315px;
+    display: inline-block;
+
+}
+.right-body{
+    width: 500px;
+    height: 400px;
+   display: flex;
+   flex-direction: column;
+   align-items: end;   
+
+}
+.right-card{
+    height: 339px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    width: 320px; 
+}
+
+.top-text-1{
+    font-family:"Poppins";
+font-size: 14px;
+font-weight: 400;
+line-height: 19.5px;
+letter-spacing: 0.15em;
+text-align: left;
+color: white;
+
+}
+
+.top-text-2{
+font-family: "Oswald";
+font-size: 51px;
+font-weight: 500;
+line-height: 62.4px;
+color: white;
+}
+.top-text-3{
+    font-family: Oswald;
+font-size: 25px;
+font-weight: 400;
+line-height: 35.57px;
+text-align: left;
+color: white;   
+}
+.card-btn{
+  width: 253px;
+height: 49px;
+border-radius: 5px;
+background-color: #17ABFF;
+font-family: Poppins;
+font-size: 15px;
+font-weight: 700;
+line-height: 19.5px;
+letter-spacing: 0.03em;
+
+color: white;
+position: relative;
+top: 25px;
+    
+}
+.r-card-bottom{
+
+position: relative;
+top: 52px;
+border-radius: 0px 0px 14px 14px;
+height: 65px;
+border-top: 2px solid #3c3c3c;
+
+}
+.card-bottom-text {
+    font-family: 'Poppins'; 
+    font-size: 13px;
+    font-weight: 400;
+    text-align: left;
+    color: #98C5E8;
+    position: relative;
+    top: 10px;
+ 
+  }
+  
+
+.features{
+width: 100%;
+height: 177.81px;
+top: 650.19px;
+left: -4px;
+gap: 0px;
+opacity: 0px;
+background-color: #F4F9FF;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.features-box{
+width: 1021px;
+height: 123px;
+gap: 160px;
+display: flex;
+
+}
+.f-b{
+ width: 133px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 5px;
+
+}
+.f-logo{
+height: 48px;
+width: 48px;
+
+}
+.f-b-text-1{
+    font-family: 'Poppins';
+font-size: 16px;
+font-weight: 400;
+line-height: 16px;
+text-align: right;
+color: #00357B;
+position: relative;
+top: 10px;
+
+}
+.f-b-text-2{
+    font-family: "Oswald";
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    text-align: right;
+    color: #00357B;
+    position: relative;
+top: 5px;
+    
+}
+.f-bottom{
+ width: 73px;
+height: 5px;
+border-radius: 13px;
+opacity: 12%;
+background-color: #00357B;
+position: relative;
+top: 15px;
+}
+
+.amenities-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    padding-top: 60px; 
+
+}
+
+.amenities{
+    width: 1200px;
+}
+.am-top-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #00357B;
+}
+.am-middle-text{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00357B;
+}
+.am-middle-text-2 {
+    position: relative;
+    top: 15px;
+}
+.amenities-box{
+    display: flex;
+    gap: 30px;
+
+}
+.am-box-1{
+    display: flex;
+    gap: 70px;
+}
+
+.am-box-2{
+    display: flex;
+    gap: 70px;
+}
+
+.am-sub-box{
+    display: flex;
+justify-content: center;
+padding-top: 10px;
+   
+}
+.grey-back{
+    width: 206px;
+height: 117.3px;
+position: absolute;
+z-index: 1;
+border-radius: 100px 100px 0px 0px;
+opacity: 0px;
+background-color: #D9D9D9;
+
+}
+.amenities-img{
+    width: 193px;
+height: 193px;
+top: 6.5px;
+position: relative;
+z-index: 1;
+border-radius: 50%;
+}
+.am-sub-box-text{
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+}
+.am-sub-text{
+    width: 70px;
+}
+.am-sub-text1{
+    width: 130px;
+}
+
+.gal-butttons-wrapper{
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.gall-top-btns{
+    width: 1200px;
+}
+
+.burgure{
+    display: none;
+}
+
+
+@media (max-width: 450px) {
+    .hero-body {
+       width: 100%;
+       display: flex;
+       flex-direction: column;
+      }
+      .nav {
+        top: -12px;
+      }
+      .logo {
+        width: 140.8px;
+        height: 16.9px;
+        padding-left: 10px; 
+      }
+
+      .nav-btn {
+     position: relative;
+     right: 10px;
+     display: none;
+      }
+      .burgure{
+      display: block;
+      color: white;
+      position: relative;
+      right: 10px;
+
+      }
+      .burgure-icone{
+        font-size: 30px;
+      }
+      .main-body-wrapper {
+        flex-direction: column;
+      }
+      .left-body {
+       width: 100%;
+       position: relative;
+       bottom: 140px;
+       padding: 20px;
+      }
+      .main-h-1 h1{
+        font-size: 40px;
+      }
+      .main-h-2 h3{
+        font-size: 14px;
+        position: relative;
+        bottom: 49px;
+      }
+      .main-h-sub1 {
+        position: relative;
+        bottom: 20px;
+      }
+      .main-sub-heading {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+        position: relative;
+        bottom: 50px;
+      }
+      .right-body {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+       position: relative;
+       bottom: 248px;
+      }
+    main{
+        overflow: hidden;
+    }
+    .features-box {
+        gap: 75px;
+       
+      }
+      .amenities-img {
+        width: 160px;
+        height: 150px;
+        
+      }
+      .grey-back {
+        width: 158px;
+        height: 101.3px;
+    
+      }
+      .ex-tr-btn {
+        justify-content: center;
+      }
+   }
